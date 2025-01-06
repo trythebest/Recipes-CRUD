@@ -16,7 +16,7 @@ app.use(express.json())
 app.use(cors({}));
 
 app.get ("/",(req,res)=>{
-    res.status(200).send("welcome to Recipes-api😋😍, Thankyou")
+    res.status(200).send("welcome to Recipes-api😋😍")
     
 })
 
